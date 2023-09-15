@@ -35,7 +35,7 @@
 }
 
 .jump {
-    animation: jump 1s  linear;
+    animation: jump 0.5s  linear;
 }
 
 @keyframes jump {
@@ -43,13 +43,13 @@
         top: 150px;
     }
     30% {
-        top: 130px;
+        top: 110px;
     }
     50% {
-        top: 80px;
+        top: 60px;
     }
     80% {
-        top: 130px;
+        top: 110px;
     }
 
     100% {
